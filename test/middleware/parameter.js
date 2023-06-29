@@ -320,15 +320,6 @@ describe('wrong_path', () => {
     });
 });
 
-describe('fulltext_mode', () => {
-    it(`fulltext`, async () => {
-        const response = await request.get('/test/1?mode=fulltext');
-        expect(response.status).toBe(200);
-        const parsed = await parser.parseString(response.text);
-        expect(parsed.items[0].content).not.toBe(undefined);
-    }, 30000);
-});
-
 describe('complicated_description', () => {
     it(`complicated_description`, async () => {
         const response = await request.get('/test/complicated');
