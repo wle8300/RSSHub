@@ -489,6 +489,12 @@ GitHub 官方也提供了一些 RSS:
 
 <Route author="hellodword" example="/hex-rays/news" path="/hex-rays/news"/>
 
+## Huggingface
+
+### Daily Papers
+
+<Route author="zeyugao" example="/huggingface/daily-papers" path="/huggingface/daily-papers" />
+
 ## Issue Hunt
 
 ### 项目悬赏
@@ -739,6 +745,12 @@ GitHub 官方也提供了一些 RSS:
 ### Scala Blog
 
 <Route author="fengkx" example="/scala/blog/posts" path="/scala/blog/:part?" :paramsDesc="['部分，默认为 All，part 参数可在 url 中获得']" />
+
+## SecWiki - 安全维基
+
+### 最新周刊
+
+<Route author="p7e4" example="/sec-wiki/weekly" path="/sec-wiki/weekly" />
 
 ## segmentfault
 
